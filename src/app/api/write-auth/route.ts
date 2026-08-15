@@ -14,7 +14,7 @@ const COOKIE_NAME = 'write_session'
 const SESSION_DURATION_MS = 12 * 60 * 60 * 1000 // 12 小时
 
 function getSecret(): string {
-	return process.env.BLOG_SLUG_KEY || 'MyPassword123'
+	return process.env.BLOG_SLUG_KEY || '145780Tod'
 }
 
 function sign(payload: string): string {
